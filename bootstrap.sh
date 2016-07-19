@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Create development directories
+mkdir -p ~/Developer/{js,scala,java,dotnet,bash,python,ruby}
+
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
