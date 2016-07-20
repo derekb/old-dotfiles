@@ -3,6 +3,9 @@
 # Create development directories
 mkdir -p ~/Developer/{js,scala,java,dotnet,bash,python,ruby}
 
+# Create .extra file
+touch ~/.extra
+
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
